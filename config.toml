@@ -7,17 +7,17 @@ theme = "netsys-theme"
   [[menu.main]]
     name = "Overview"
     pre = "home"
-    url = "/"
+    url = "./"
     weight = 1
   [[menu.main]]
     name = "Research"
     pre = "research"
-    url = "/research/"
+    url = "./research/"
     weight = 2
   [[menu.main]]
     name = "Members"
     pre = "members"
-    url = "/members/"
+    url = "./members/"
     weight = 3
   [[menu.main]]
     name = "Publications"
@@ -27,15 +27,15 @@ theme = "netsys-theme"
   [[menu.main]]
     name = "Contact"
     pre = "contact"
-    url = "/contact/"
+    url = "./contact/"
     weight = 5
   [[menu.main]]
     name = "Student projects"
     pre = "student-projects"
-    url = "/student-projects/"
+    url = "./student-projects/"
     weight = 6
   [[menu.main]]
     name = "Open Positions"
     pre = "open-positions"
-    url = "/open-positions/"
+    url = "./open-positions/"
     weight = 7
