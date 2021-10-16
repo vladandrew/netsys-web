@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	{{- partial "head.html" . -}}
+	<body>
+		<div class="container">
+			<header class="site-header">
+				<h1><a href="/"><img src="http://nets.cs.pub.ro/pics/upb.jpg" alt="Netsys" style="height:50px; vertical-align: text-bottom;" /></a> {{ .Site.Title }}</h1>
+				<hr />
+			</header>
+			<div class="row">
+				{{- partial "header.html" . -}}
+				{{- block "main" . }}{{- end }}
+				<div class="col-sm-3 col-md-2 site-sidebar" role="navigation">
+					<nav>
+						<ul class="list-unstyled site-nav">
+							{{ range .Site.Menus.main }}
+							<li><a class="nav-link" href="{{ .URL }}">
+								{{ if .Pre }}
+								{{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+								{{ $icon }}
+								{{ end }}
+								{{ $text := print .Name | safeHTML }}
+								{{ $text }}
+								</a></li>
+							{{ end }}
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+
+		</div>
+		{{- partial "footer.html" . -}}
+	</body>
+</html>

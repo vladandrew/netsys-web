@@ -1,0 +1,41 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'NetSys Research Group UPB'
+theme = "netsys-theme"
+
+[menu]
+  [[menu.main]]
+    name = "Overview"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Research"
+    pre = "research"
+    url = "/research/"
+    weight = 2
+  [[menu.main]]
+    name = "Members"
+    pre = "members"
+    url = "/members/"
+    weight = 3
+  [[menu.main]]
+    name = "Publications"
+    pre = "publications"
+    url = "/publications/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    pre = "contact"
+    url = "/contact/"
+    weight = 5
+  [[menu.main]]
+    name = "Student projects"
+    pre = "student-projects"
+    url = "/student-projects/"
+    weight = 6
+  [[menu.main]]
+    name = "Open Positions"
+    pre = "open-positions"
+    url = "/open-positions/"
+    weight = 7
