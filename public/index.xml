@@ -17,6 +17,16 @@
     
     <item>
       <title></title>
+      <link>http://example.org/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/index.html</guid>
+      <description>The NetSys working group was founded in 2010 to enable research in interdisciplinary areas of computer science focusing broadly on networking, theory, security and operating systems. The group has attracted joint funding of more than 3 million Euros until now, including two FP7 projects (Change FP7 and Trilogy 2 FP7), two H2020 projects (SSICLOPS and SUPERFLUIDITY), one H2020 ERC Project (Cornet), and two national projects (MobiL4 and MPTCP deployment).
+Are you a student interested in working with us?</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://example.org/members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -49,7 +59,8 @@ FlexOS: Making OS Isolation Flexible - Hugo Lefeuvre, Vlad Badoiu, Stefan Teodor
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/research/</guid>
-      <description>The NETSYS research group focuses on networking and systems research. Its expertise in networking is best seen in the two protocols it has helped design, implement and test: Multipath TCP and NDP. In the broader systems area, the group is working on virtualization (see LightVM paper in SOSP 2017), security (see CHES 2017 paper) and network verification (see Sigcomm 2016).</description>
+      <description>The NETSYS research group focuses on networking and systems research. Its expertise in networking is best seen in the two protocols it has helped design, implement and test: Multipath TCP and NDP. In the broader systems area, the group is working on virtualization (see LightVM paper in SOSP 2017), security (see CHES 2017 paper) and network verification (see Sigcomm 2016).
+Current Projects  Unikraft Dataplane verification EQDS  </description>
     </item>
     
     <item>
